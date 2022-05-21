@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.luca.bibliotecac.MenuController">
+   <center>
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" spacing="150.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#showMainView" prefHeight="130.0" prefWidth="130.0" text="LIBRI" />
+            <Button mnemonicParsing="false" prefHeight="130.0" prefWidth="130.0" text="SETTINGS" />
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
